@@ -6,6 +6,8 @@
     margin-bottom: 1em;
     padding: 20px;
     width: auto;
+    float: left;
+    overflow: auto;
 }
 
 .toc_title {
@@ -15,4 +17,8 @@
 
 #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
+}
+
+#content {
+    text-align: center;
 }
